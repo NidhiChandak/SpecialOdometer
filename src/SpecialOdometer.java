@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 
 public class SpecialOdometer {
-    public ArrayList<Integer> digits;
+    public ArrayList<Integer> readings;
     public int size;
 
     public SpecialOdometer(int size) {
         this.size = size;
-        digits = new ArrayList<Integer>(size);
+        readings = new ArrayList<Integer>();
     }
 
     public int next() {
